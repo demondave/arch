@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# Creating directories
 mkdir ~/.config
 mkdir ~/.config/bspwm
 mkdir ~/.config/sxhkd
