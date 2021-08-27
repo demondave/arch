@@ -2,3 +2,4 @@
 
 Run `git clone https://github.com/demondave/arch.git`
 
+    `cd arch`
