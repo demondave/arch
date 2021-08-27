@@ -1,1 +1,5 @@
-
+#!/bin/bash
+echo "Starting Update"
+mkdir ~/git
+git clone https://github.com/demondave/arch.git ~/git
+echo "Update Finished"
