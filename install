@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Creating update script
+cp ./scripts/update ~/update
+
 # Creating directories
 mkdir ~/.config
 mkdir ~/.config/bspwm
