@@ -9,3 +9,6 @@ mkdir ~/.config/bspwm
 mkdir ~/.config/sxhkd
 mkdir ~/.config/picom
 mkdir ~/.config/polybar
+
+# Coyping files
+cp ./config/sxhkdrc ~/.config/sxhkd/sxhkdrc
