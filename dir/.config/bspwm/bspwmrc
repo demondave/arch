@@ -18,5 +18,5 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 setxkbmap -layout de
 feh --bg-scale ~/.config/bspwm/wallpaper.jpg
-picom --experimental-backends -b
+#picom --experimental-backends -b
 bash ~/.config/polybar/launch.sh
