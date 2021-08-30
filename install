@@ -10,5 +10,18 @@ mkdir ~/.config/sxhkd
 mkdir ~/.config/picom
 mkdir ~/.config/polybar
 
-# Coyping files
+# sxhkd
 cp ./config/sxhkdrc ~/.config/sxhkd/sxhkdrc
+
+# bspwm
+cp ./config/bspwm ~/.config/bspwm/bspwmrc
+chmod +x ~/.config/bspwm/bspwmrc
+
+# polybar
+
+cp ./config/launch.sh ~/.config/polybar/launch.sh
+chmod +x ~/.config/polybar/launch.sh
+cp ~/.config/polybar/config/config ~/.config/polybar/config
+
+# picom
+cp ~/ ~/.config/picom/picom.conf
