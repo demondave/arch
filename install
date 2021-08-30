@@ -1,7 +1,12 @@
 #!/bin/bash
 
+# Installing packages
+sudo pacman -S bspwm sxhkd lightdm-gtk-greeter rxvt-unicode feh picom ttf-fira-code rofi htop
+
 # Creating update script
 cp ./scripts/update ~/update
 
 # Copying files
-cp ./dir/.config ~/
+cp -R ./dir/.config* ~/.config
+
+cp ./dir/.Xresources ~/.Xresources
