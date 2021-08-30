@@ -5,7 +5,7 @@ sudo pacman -S bspwm sxhkd lightdm-gtk-greeter rxvt-unicode feh picom ttf-fira-c
 
 # Creating update script
 cp ./scripts/update ~/update
-
+chmod +x ~/update
 # Copying files
 cp -R ./dir/.config* ~/.config
 
