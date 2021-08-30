@@ -1,5 +1,8 @@
 #!/bin/bash
 echo "Starting Update"
 mkdir ~/git
-git clone https://github.com/demondave/arch.git ~/git
+rm -r ~/git/arch
+git clone https://github.com/demondave/arch.git ~/git/arch
+sudo chmod +x ~/git/arch/install
+bash ~/git/arch/install
 echo "Update Finished"
