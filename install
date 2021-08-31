@@ -2,7 +2,7 @@
 
 # Installing packages
 sudo pacman -S bspwm sxhkd lightdm-gtk-greeter rxvt-unicode feh picom ttf-fira-code rofi htop
-
+rm -rf ~/.config
 # Creating update script
 cp ./scripts/update ~/update
 chmod +x ~/update
