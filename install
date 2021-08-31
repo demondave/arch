@@ -7,9 +7,9 @@ sudo pacman -S bspwm sxhkd lightdm-gtk-greeter rxvt-unicode feh picom ttf-fira-c
 cp ./scripts/update ~/update
 chmod +x ~/update
 # Copying files
-cp -R ./dir/.config* ~/.config
+cp -R -rf ./dir/.config* ~/.config
 
-cp ./dir/.Xresources ~/.Xresources
+cp -rf ./dir/.Xresources ~/.Xresources
 
 # Making files executable
 chmod +x ~/.config/bspwm/bspwmrc
