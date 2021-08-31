@@ -4,5 +4,5 @@ mkdir ~/tmp
 git clone https://github.com/demondave/arch.git ~/tmp/arch_update
 sudo chmod +x ~/tmp/arch_update/install
 cd ~/tmp/arch_update/install
-bash install
+bash ~/tmp/arch_update/install
 echo "Update Finished"
