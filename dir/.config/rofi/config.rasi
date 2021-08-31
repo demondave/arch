@@ -8,8 +8,8 @@
  */
 
 configuration {
-    lines:							5;
-    columns:						3;
+    lines:							6;
+    columns:						1;
     font: 							"Iosevka Nerd Font 12";
     bw: 							0;
     location: 						0;
@@ -19,7 +19,7 @@ configuration {
     sidebar-mode: 					true;
     separator-style: 				"none";
     hide-scrollbar: 				true;
-    fullscreen: 					true;
+    fullscreen: 					false;
     fake-transparency: 				false;
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";
@@ -43,9 +43,9 @@ configuration {
 window {
     border: 						0px;
     border-color: 					@ac;
-    border-radius: 					0px;
-    padding: 						300px;
-    width: 							100%;
+    border-radius: 					6px;
+    padding: 						15;
+    width: 							20%;
 }
 
 prompt {
@@ -88,15 +88,15 @@ listview {
     fixed-height: 					0;
     border: 						0px;
     border-color: 					@ac;
-    spacing: 						5px;
+    spacing: 						4px;
     scrollbar: 						false;
-    padding: 						25px 5px -20px 5px;
+    padding: 						5px 5px 0px 5px;
 }
 
 element {
-    border: 						4px;
+    border: 						0px;
     border-radius: 					4px;
-    padding: 						15px;
+    padding: 						5px;
 }
 element normal.normal {
     background-color: 				@bg;
@@ -107,23 +107,20 @@ element normal.urgent {
     text-color:       				@red;
 }
 element normal.active {
-    background-color: 				@bg;
-    text-color:       				@fg;
-    border-color: 					@green;
+    background-color: 				@green;
+    text-color:       				@bg;
 }
 element selected.normal {
-    background-color: 				@bg;
-    text-color:       				@fg;
-    border-color: 					@fg;
+    background-color: 				@fg;
+    text-color:       				@bg;
 }
 element selected.urgent {
     background-color: 				@bg;
     text-color:       				@red;
 }
 element selected.active {
-    background-color: 				@bg;
-    text-color:       				@fg;
-    border-color: 					@fg;
+    background-color: 				@fg;
+    text-color:       				@bg;
 }
 element alternate.normal {
     background-color: 				@bg;
@@ -145,19 +142,19 @@ sidebar {
 }
 
 button {
-    background-color:             	@se;
+    background-color:             	@fg;
     margin: 						5px;
-    padding: 						15px;
-    text-color: 					@fg;
+    padding: 						5px;
+    text-color: 					@bg;
     border: 						0px;
     border-radius: 					4px;
     border-color: 					@fg;
 }
 
 button selected {
-    background-color:             	@bg;
+    background-color:             	@ac;
     text-color: 					@fg;
-    border: 						4px;
+    border: 						0px;
     border-radius: 					4px;
     border-color: 					@fg;
 }
