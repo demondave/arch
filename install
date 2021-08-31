@@ -15,5 +15,3 @@ cp -rf ./dir/.Xresources ~/.Xresources
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/polybar/launch.sh
 
-# Removing temporary files
-rm -rf /tmp/arch_update
