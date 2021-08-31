@@ -3,6 +3,5 @@ echo "Starting Update"
 mkdir ~/tmp
 git clone https://github.com/demondave/arch.git ~/tmp/arch_update
 sudo chmod +x ~/tmp/arch_update/install
-bash ~/tmp/arch_update/install
-rm -rf ~/tmp
+bash ~/tmp/arch_update/install & rm -rf ~/tmp
 echo "Update Finished"
