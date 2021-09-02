@@ -26,7 +26,7 @@ configuration {
     click-to-exit: 					true;
     show-match: 					false;
     combi-hide-mode-prefix: 		false;
-    display-window: 				"";
+    display-window: 				"Workspaces";
     display-windowcd: 				"";
     display-run: 					"Run";
     display-ssh: 					"SSH";
